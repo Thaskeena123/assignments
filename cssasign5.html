@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samplewebsite</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    header{
+        background-color: black;
+        padding: 40px;
+        text-align: left;
+         font-size: 20px;
+        
+    }
+    header h1{
+        color: rgb(238, 238, 110);
+    }
+    header p{
+        color: gray;
+    }
+    header nav{
+        float: right;
+        width: 40%;
+         padding-bottom:5px;
+         padding-right: 70px;
+        display: block;
+       padding-right: 50px;
+      
+    }
+    .navbar-name ul{
+        list-style: none;
+       margin: 0;
+       padding: 0;
+        background-color:rgb(52, 42, 42);
+        overflow: hidden;
+       
+      
+       
+     
+      
+    }
+   
+     .navbar-name li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+        display: block;
+        float: left;
+       border-radius: 50px;
+       border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+     
+        
+    }
+   
+    
+    .navbar-name ul :hover {
+        background-color: green;
+    }
+    
+    img{
+        width:90%;
+       border: 10px solid grey;
+        margin: 20px;
+       
+      
+    }
+    .main {
+        padding-left: 65px;
+        padding-right: 30%;
+    }
+    .box1{
+        float: right;
+  width: 30%;
+  height: 360px; 
+  background-color: cadetblue;
+  border: 2px solid rgb(95, 93, 93);
+  padding: 10px;
+  border-radius: 30px;
+    }
+    .outbox{
+         float: right;
+        width:425px;
+        background-color: cadetblue;
+        border: 2px solid rgb(95, 93, 93);
+        padding: 2px;
+        border-radius: 30px;
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .foot{
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        align-items: center;
+    }
+    .foot li{
+        text-align: center;
+        
+    
+    }
+    .foot ul{
+        list-style: none;
+       margin: 0;
+       padding: 0;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding-left: 42%;
+       
+    }
+    .foot li a{
+        display: block;
+        color: rgb(152, 152, 9);
+        text-align: center;
+        padding: 10px 10px 0px 0px;
+        text-decoration: none;
+        display: block;
+       
+      
+     
+    }
+    .foot p a{
+        color: rgb(152, 152, 9) ;
+    }
+    section{
+        background-color: antiquewhite;
+    }
+</style>
+<body>
+    <header>
+        <div class="header-name">
+        <h1>Website Name</h1>
+        <p>Motive to your website</p>
+        </div>
+        <nav>
+            <div class="navbar-name">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">A page</a></li>
+                    <li><a href="#">Another Page</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <section>
+        <center>
+            <div>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.-g3oijtebHGGt1kRelLkBQHaEK&pid=Api&P=0" alt="loading" width="500px" height="200px">
+    </div>
+    </center>
+    <article>
+        <aside>
+            <div class="box1">
+                <h3>Latest news</h3>
+                <h4>SOME NEWS GOES HERE</h4>
+                
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor feugiat ipsum quis ullamcorper. Nullam vitae velit vitae tortor semper tempor ac vitae magna. Maecenas a ullamcorper neque. Aliquam vitae tortor luctus nisi rutrum eleifend non non leo.</p>
+                <div id="more" style="display:none;">
+                    <p>Sed eleifend lectus id semper accumsan. Sed lobortis id ligula eget blandit. Integer interdum iaculis nunc, sed porttitor magna tincidunt in. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam lobortis accumsan tempor. Aliquam sollicitudin pulvinar est, quis convallis tellus.</p>
+                    <img..../>
+                </div>
+                <a href="javascript:showMore()" id="link">Read More </a><br><br>
+        
+           <div class="outbox">
+            <div class="box2">
+                <h3>Some usefull links</h3>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 1</a></li>
+                </ul>
+            </div> 
+            </div>
+        </div>
+        </aside>
+        <div class="main">
+        <h2>Welcome to the web page..</h2>
+        <p>Simply put, loremipsum is dummy text that occupies the space where the real content should be. If you are designing an online business such as a blog and you do not have content already,  you use a lorem ipsum generator to create placeholder or dummy text to show you how the business will look once you add the real content. </p>
+            <p> Lorem ipsum is common with typesetting and printing businesses. The text did not start with the age of digital businesses as it has been used since 1500s or even The first use must have been in the creation of a specimen book. The creators wanted to know how the book will look with text on and that was when lorem ipsum started finding its place in the printing, typesetting, and digital world.
+
+        </p>
+        <p>
+            The text has not changed much since the 1500s. It has held on to its place through the typewriter period and is now used on digital work. The release of Letraset sheets that contained lorem ipsum was the start of the popularity of lorem ipsum. Today, a lorem ipsum generator has made it easier to generate the text with much ease.
+
+        </p>
+        <p>
+            Tempus accumsan, quam aenean est. Convallis eleifend euismod, erat integer, vehicula tincidunt vulputate fermentum dictum. Curabitur consectetur netus, suscipit aenean curabitur vehicula. Nisl vitae tortor habitant, imperdiet odio per, mattis etiam litora mauris suspendisse ad. Quisque vulputate, curabitur quis eget. Vestibulum facilisis, morbi dapibus et. Condimentum sollicitudin, proin facilisis egestas tristique.
+
+        </p>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+        <h2>Some highlights...</h2>
+        <p>some text goes here:</p>
+        <ul>
+            <li>some text here</li>
+            <li>some text here</li>
+            <li>some text here</li>
+            <li>some text here</li>
+        </ul>
+        </div>
+       
+    </article>
+   
+    
+    </section>
+    <footer>
+        <div class="foot">
+            <ul>
+                <li><a href="#">Home|</a></li>
+                <li><a href="#">About us|</a></li>
+                <li><a href="#">A page|</a></li>
+                <li><a href="#">Another Page|</a></li>
+                 <li><a href="#">Contact us</a></li>
+            </ul>
+           <p> <a href="copyright@xyz">copyright@xyz| All Right Reserved</a></p>
+
+        </div>
+    </footer>
+</body>
+<script>
+    function showMore(){
+    //removes the link
+    document.getElementById('link').parentElement.removeChild('link');
+    //shows the #more
+    document.getElementById('more').style.display = "block";
+}
+</script>
+</html>
